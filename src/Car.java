@@ -5,14 +5,10 @@ public class Car {
 
     public static void main(String[] args) {
 
-        startauto();
+        starteauto();
         beschleunigung();
     }
 
-    public static void startauto() {
-        System.out.println("====");
-        System.out.println("Auto wird gestartet...");
-    }
 
     private String marke;
     private String modell;
@@ -42,7 +38,7 @@ public class Car {
         this.farbe = farbe;
     }
 
-    public void starteauto() {
+    public static void starteauto() {
         System.out.println("====");
         System.out.println("Auto_u wird gestartet...");
 
@@ -52,7 +48,7 @@ public class Car {
         System.out.println("Auto wird beschleunigt !!!");
         int speed = 10;
         int speedmehr = speed + 10;
-        System.out.println("Auto beschleunigit auf : " + speedmehr);
+        System.out.println("Auto beschleunigt auf : " + speedmehr);
 
 
     }
