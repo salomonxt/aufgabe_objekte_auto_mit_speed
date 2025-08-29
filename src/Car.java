@@ -46,9 +46,9 @@ public class Car {
 
     public static void beschleunigung() {
         System.out.println("Auto wird beschleunigt !!!");
-        int speed = 10;
-        int speedmehr = speed + 10;
-        System.out.println("Auto beschleunigt auf : " + speedmehr);
+        int speed = 0;
+        int speedmehr = speed + 100;
+        System.out.println("Auto beschleunigt auf : " + speedmehr +" Km/h");
 
 
     }

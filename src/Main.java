@@ -4,19 +4,10 @@ public class Main {
         Car auto = new Car(); // neues Objekt "auto" erstellen
         auto.starteauto();
         auto.beschleunigung();
+
+        Car auto2 = new Car();
+        auto2.starteauto();
+        auto2.beschleunigung();
     }
-
-
-    /* public static void main(String[] args) {
-        startauto();
-    }
-
-
-    public static void startauto() {
-        System.out.println("====");
-        System.out.println("Auto wird gestartet...");
-    }
-*/
-
 
 }
